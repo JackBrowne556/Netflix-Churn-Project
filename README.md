@@ -1,2 +1,2 @@
 # Netflix-Churn-Project
-Netflix has been seeing an increasing churn rate amongst their subscribers. The solution to the problem is to find factors that lead to Netflix user churn rates using both Excel and SQL, using insights to target advertising campaigns to adhere to certain groups with higher churn rates than others
+Netflix has been seeing an increasing churn rate amongst their subscribers. The goal of the project is to find factors that lead to Netflix user churn rates using a given dataset on consumer information and interaction. Insights from identified churn rates and how they affect segmented groups will inform recommendations to the marketing team to target advertising campaigns to adhere to these with higher churn rates than others.
