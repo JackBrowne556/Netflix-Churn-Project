@@ -5,4 +5,12 @@ Netflix has been seeing an increasing churn rate amongst their subscribers. The 
 
 ## Insights and Recommendations are provided on the following areas:
 
-- **Churn Cause Analysis**: Determining and analyzing the outlying factors that cause a Netflix subscriber to cancel their subscription, focusing on group segments such as age, subscription type, and region.
+- **Churn Cause Analysis**: Determining and analyzing the outlying factors that cause a Netflix subscriber to cancel their subscription, focusing on group segments such as age, subscription type, and region. 
+- **Subscription Price Analysis**: Using sales data from subsciption price per region and plan price to guide marketing decisions.
+- **Customer Segmentation**: Grouping customers into certain groups based on age, subscription type, plan, and region and providing descriptive statistics on each group to make comparisons and inform targetted marketing strategies.
+- **Elaborate More**
+
+# Data Structure and Caveats
+
+The data structure consists of two csv files: `netflix_user_data.csv` and `netflix_subscription_fee.csv`, containing data on netflix data based on individual, unnamed users and subscription fee based on country and plan type. The first table on user data is synthesized to mimic accurate business data on user information, and the subscription fee table retrieved from Kaggle contains information per country, a key that is changed to fit the user data table through SQL, data cleaning techniques can be found "here".
+
