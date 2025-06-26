@@ -13,3 +13,5 @@ Netflix has been seeing an increasing churn rate amongst their subscribers. The 
 
 The data structure consists of two csv files: `netflix_user_data.csv` and `netflix_subscription_fee.csv`, containing data on netflix data based on individual, unnamed users and subscription fee based on country and plan type. The first table on user data was found on Kaggle, and synthesized to increase record count and provide data cleaning opportunities, and the subscription fee table retrieved from Kaggle contains information per country, a key that is changed to fit the user data table through SQL, data cleaning techniques can be found "here".
 
+<img src="images/netflix_data_schemas.png" alt="Netflix Logo" width="80%"/>
+
