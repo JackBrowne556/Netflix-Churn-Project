@@ -17,3 +17,5 @@ The data structure consists of two csv files: `netflix_user_data.csv` and `netfl
 
 Data cleaning efforts, added columns, and validation checks were conducted to ensure data was ready for analysis. Those processes are outlined "here".
 
+Refer to issues log and note insights about data cleaning; identify clear, null / unfixable values and magnitude in business analysis
+
