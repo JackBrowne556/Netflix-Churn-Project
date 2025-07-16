@@ -13,6 +13,8 @@ Netflix has been seeing an increasing churn rate amongst their subscribers. The 
 
 The data structure consists of two csv files: `netflix_user_data.csv` and `netflix_subscription_fee.csv`, containing data on netflix data based on individual, unnamed users and subscription fee based on country and plan type. The first table on user data was found on Kaggle, and synthesized to increase record count to resemble uncleaned business data, and the subscription fee table retrieved from Kaggle contains information per country, a key that is changed to fit the user data table through SQL.
 
+In project relation, following the given task of analyzing customer churn reasons and sale data to guide marketing decisions, I retrieved the information on user data from the Customer data sector, and the subscription fee prices for countries from the revenue sector. 
+
 <img src="images/netflix_data_schemas.png" alt="Netflix Logo" width="80%"/>
 
 Data cleaning efforts, added columns, and validation checks were conducted to ensure data was ready for analysis. Those processes are outlined "here".
