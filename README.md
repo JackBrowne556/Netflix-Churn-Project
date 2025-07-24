@@ -9,6 +9,12 @@ Netflix has been seeing an increasing churn rate amongst their subscribers. The 
 - **Subscription Price Analysis**: Using sales data from subsciption price per region and plan price to guide marketing decisions.
 - **Customer Segmentation**: Grouping customers into certain groups based on age, subscription type, plan, and region and providing descriptive statistics on each group to make comparisons and inform targetted marketing strategies.
 
+### The following project deliverables will be provided:
+
+- **Data Cleaning Notebook** for process reproducability and checking data integrity, including a documentation log on changes made and solutions to unfixable data issues, excel functions used, and a final cleaned excel file.
+- **Analysis Notebook** to organize analysis, answer key business questions, and provide the step-by-step thought processes to found insights and recommendations.
+- **A Tableau Dashboard** to visualize and present key findings to stakeholders, technical and non-technical, in an interactive way.
+
 # Data Structure and Caveats
 
 The data structure consists of two csv files: `netflix_user_data.csv` and `country_sub_fee.csv`, containing data on netflix data based on individual, unnamed users and subscription fee based on country and plan type. The first table on user data was found on Kaggle, and synthesized to increase record count to resemble uncleaned business data, and the subscription fee table retrieved from Kaggle contains information per country, a key that is changed to fit the user data table through SQL.
