@@ -63,7 +63,7 @@ The significance of changing column names will have little effect for the data c
 
 Columns that were irrelevant to answer business questions and objectives were filtered out in a separate spreadsheet to practice data cleanness, identify important metrics in-columns, and to save time during the data cleaning process. Column filtering will be done for both tables, `netflix_user_data` and `netflix_subscription_fee`. The following is the new data schema for data cleaning and further analysis:
 
-`INSERT IMAGE HERE ON NEW FILTER SCHEMA`
+<img src="images/filtered_schema.png" alt="Filtered Schema" width="50%"/>
 
 Filtering out relevant columns allows for a more time efficient and targeted data cleaning process. The new filtered sheet, `netflix_user_data_filtered`, contains the groups and categories to compare churn rates between, as well as the KPI of `churn_status` being "yes" or "no".
 
