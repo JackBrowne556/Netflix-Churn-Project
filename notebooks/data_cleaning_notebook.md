@@ -63,7 +63,7 @@ The significance of changing column names will have little effect for the data c
 
 Columns that were irrelevant to answer business questions and objectives were filtered out in a separate spreadsheet to practice data cleanness, identify important metrics in-columns, and to save time during the data cleaning process. Column filtering will be done for both tables, `netflix_user_data` and `netflix_subscription_fee`. The following is the new data schema for data cleaning and further analysis:
 
-<img src="images/netflixlogo.jpg" alt="Netflix Logo" width="50%"/>
+<img src="../images/filtered_schema.png" alt="Netflix Logo" width="50%"/>
 
 Filtering out relevant columns allows for a more time efficient and targeted data cleaning process. The new filtered sheet, `netflix_user_data_filtered`, contains the groups and categories to compare churn rates between, as well as the KPI of `churn_status` being "yes" or "no".
 
@@ -73,7 +73,7 @@ A total of 4921 duplicate records were found in `netflix_user_data`. Duplicate r
 
 Duplicates were deleted through Excel's "Remove Duplicates" feature under the `Data` menu, as seen below.
 
-`INSERT IMAGE HERE ON "Remove Duplicates" TAB IN EXCEL DESKTOP`
+<img src="../images/removeduplicatesss.jpg" alt="remove duplicates excel" width="50%"/>
 
 The total amount of records before duplicate deletion was 122,965. The deletion of 4921 duplicate records made the total count of unique records to 118,044.
 
@@ -87,8 +87,6 @@ A significant amount of typos were found during data cleaning, which included da
 - `churn_status`
 
 Most of the typo issues were fixable by using a temporary lookup table within the `netflix_user_data` spreadsheet, containing all unique typo values accompanied by their fixed counterpart to use a `VLOOKUP` function. The following is a short snippet example of using a `VLOOKUP` function in fixing the churn_status column, with the same formula technique being used for fixing typos in sub_plan and region. Note the temporary lookup table created below for typos in churn_status (mispellings of "yes" and "no")
-
-`INSERT IMAGE HERE ON LOOKUP TABLE lookups!G:D`
 
 A VLOOKUP nested in an IFERROR function was used to fix the typos via a lookup table and provide an alternative if an error showed up.
 
@@ -127,7 +125,7 @@ A total of 8 blank and 6 null value issues were found during data cleaning, whic
 
 The only fixable problem was in the `customer_id` column for both blank and null values. During data cleaning, both blank values and customer id values that didn't correspond to an ID were inferable to a fully cleaned ID that came before it. In other words, every blank or null value was in between +1/-1 of its customer id, making the blank or null value inferable as the value in between those two numbers:
 
-`Insert image of customer_id example above ^`
+
 
 A series of excel functions were used to handle both blank and null values, utilizing `RIGHT`, embedded `OR` and `TEXT` functions in `IF`, and `CONCATENATE`:
 
