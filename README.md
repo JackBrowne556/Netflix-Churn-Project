@@ -21,7 +21,7 @@ The data structure consists of two csv files: `netflix_user_data.csv` and `count
 
 In project relation, following the given task of analyzing customer churn reasons and sale data to guide marketing decisions, I retrieved the information on user data from the Customer data sector, and the subscription fee prices for countries from the revenue sector. 
 
-<img src="images/netflix_data_schemas.png" alt="Netflix Logo" width="80%"/>
+<img src="images/Model databases (1).png" alt="netflix_database" width="100%"/>
 
 Data cleaning efforts, added columns, and validation checks were conducted to ensure data was ready for analysis. Those processes are outlined <a href="Netflix-Churn-Project/notebooks
 /data_cleaning_notebook.md">here</a>. The formulas for such cleaning efforts can also be found <a href="Netflix-Churn-Project/excel
