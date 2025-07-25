@@ -5,9 +5,9 @@ Netflix has been seeing an increasing churn rate amongst their subscribers. The 
 
 ### Insights and Recommendations are provided on the following areas:
 
+- **Customer Segmentation**: Grouping customers into certain groups based on age, subscription type, plan, support queries logged, and region and providing descriptive statistics on each group to make comparisons and inform targetted marketing strategies.
 - **Churn Cause Analysis**: Determining and analyzing the outlying factors that cause a Netflix subscriber to cancel their subscription, pinpointing reasons that have the greatest churn cause in relation to customer segmentation.
 - **Subscription Price Analysis**: Using sales data from subsciption price per region and plan price to guide marketing decisions.
-- **Customer Segmentation**: Grouping customers into certain groups based on age, subscription type, plan, and region and providing descriptive statistics on each group to make comparisons and inform targetted marketing strategies.
 
 ### The following project deliverables will be provided:
 
