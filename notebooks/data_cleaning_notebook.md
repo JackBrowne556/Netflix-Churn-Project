@@ -73,7 +73,7 @@ A total of 4921 duplicate records were found in `netflix_user_data`. Duplicate r
 
 Duplicates were deleted through Excel's "Remove Duplicates" feature under the `Data` menu, as seen below.
 
-<img src="../images/removeduplicatesss.jpg" alt="remove duplicates excel" width="100%"/>
+<img src="../images/removeduplicatesss.jpg" alt="remove duplicates excel" width="50%"/>
 
 The total amount of records before duplicate deletion was 122,965. The deletion of 4921 duplicate records made the total count of unique records to 118,044.
 
