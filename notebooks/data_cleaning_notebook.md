@@ -73,7 +73,7 @@ A total of 4921 duplicate records were found in `netflix_user_data`. Duplicate r
 
 Duplicates were deleted through Excel's "Remove Duplicates" feature under the `Data` menu, as seen below.
 
-<img src="../images/removeduplicatesss.jpg" alt="remove duplicates excel" width="50%"/>
+<img src="../images/removeduplicatesss.jpg" alt="remove duplicates excel" width="100%"/>
 
 The total amount of records before duplicate deletion was 122,965. The deletion of 4921 duplicate records made the total count of unique records to 118,044.
 
@@ -125,7 +125,7 @@ A total of 8 blank and 6 null value issues were found during data cleaning, whic
 
 The only fixable problem was in the `customer_id` column for both blank and null values. During data cleaning, both blank values and customer id values that didn't correspond to an ID were inferable to a fully cleaned ID that came before it. In other words, every blank or null value was in between +1/-1 of its customer id, making the blank or null value inferable as the value in between those two numbers:
 
-
+<img src="../images/custidexample.jpg" alt="Customer ID Example" style="display: block; margin: auto;" />
 
 A series of excel functions were used to handle both blank and null values, utilizing `RIGHT`, embedded `OR` and `TEXT` functions in `IF`, and `CONCATENATE`:
 
@@ -159,8 +159,8 @@ Refer to `country_sub_fee_dirty` to see the raw dataset before the data cleaning
 
 With the cleaned dataset, average costs of each plan for their respective regions were calculated with an Excel Pivot Table, and the results were imported into a table which will be the final exported dataset to be joined with `netflix_user_data`. 
 
-`IMAGE OF PIVOT TABLE SHOWING AVERAGES`
-`IMAGE OF FINAL DATASET`
+<img src="../images/region_subplan_average.png" alt="pivot table subplan averages" width="80%"/>
+<img src="../images/finalexmporttablecountry.jpg" alt="country table final export" width="80%"/>
 
 
 
