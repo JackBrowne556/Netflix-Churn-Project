@@ -16,7 +16,9 @@ Sub_plan - =IFERROR(VLOOKUP(E2, lookups!$D$1:$E$64,2,FALSE), E2)
 
 churn_status - =IFERROR(VLOOKUP(E2,lookups!$G$1:$H$16,2,FALSE), E2)
 
-`Image of Lookup table for all three in single screenshot`
+<img width="266" height="380" alt="image" src="https://github.com/user-attachments/assets/c02878c0-63e3-4fc6-a1aa-a7a29643c301" />
+
+<b>Note that the first region lookup table isn't able to fit in the screenshot, and extends down to row 107.</b>
 
 #### Return basic or standard_with_ads plan values in new column
 
