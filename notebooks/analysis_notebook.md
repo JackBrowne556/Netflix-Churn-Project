@@ -57,7 +57,8 @@ Purpose for Analysis:
 
 The following SQL query returns the amount of times a customer churned for each subscription length segment, including each column value for a customer's subscriptions in months (1, 3, 6, 12, 24).
 
-`Insert image of Sub length SQL query here`
+<img src="../images/Q1_query.jpg" alt="Q1 Query" width="50%"/>
+<img src="../images/Q1_subplan.jpg" alt="Q1 Result" width="50%"/>
 
 Outcomes:
 
@@ -99,7 +100,8 @@ Purpose for Analysis:
 
 The following SQL Query returns each category as records, total customers for each subscription length category, the number of churned customers per category, and a proportion of churned to total customers, for each category in a table.
 
-`Insert Image of Subscription Length SQL Query here`
+<img src="../images/Q2_query.jpg" alt="Q2 Query" width="50%"/>
+<img src="../images/Q2_result.jpg" alt="Q2 Result" width="50%"/>
 
 Outcomes:
 
@@ -148,7 +150,8 @@ Purpose for Analysis:
 
 The following SQL Query returns the average subscription time for each region, ordered by the average subscription length for each region.
 
-`Insert image of Region SQL Query here`
+<img src="../images/Q3_query.jpg" alt="Q3 Query" width="50%"/>
+<img src="../images/Q3_result.jpg" alt="Q3 Result" width="50%"/>
 
 Outcomes:
 
@@ -190,7 +193,8 @@ Purpose of Analysis:
 
 The following SQL Query returns the counts and average subscription price paid for each age group and subscription into an aggregated table for North America.
 
-`Insert image of NA SQL Query here`
+<img src="../images/Q4_query.jpg" alt="Q4 Query" width="50%"/>
+<img src="../images/Q4_result.jpg" alt="Q4 Result" width="50%"/>
 
 Outcomes:
 All results are in a single query, however, this outcomes section will be broken into five for each region. Recognizable trends will be noted.
@@ -250,7 +254,8 @@ Purpose of Analysis:
 
 The following SQL query returns the total revenue for each subscription plan in their separate regions.
 
-`Insert Image of Q5 SQL Query here`
+<img src="../images/Q5_query.jpg" alt="Q5 Query" width="50%"/>
+<img src="../images/Q5_result.jpg" alt="Q5 Result" width="50%"/>
 
 Outcomes:
 
