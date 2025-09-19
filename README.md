@@ -5,8 +5,8 @@ Netflix has been seeing an increasing churn rate amongst their subscribers. The 
 
 ### Insights and Recommendations are provided on the following areas:
 
-- **Customer Segmentation**: Grouping customers into certain groups dataset columns and providing descriptive statistics on each group to make comparisons and inform targetted marketing strategies.
 - **Churn Cause Analysis**: Determining and analyzing the outlying factors that cause a Netflix subscriber to cancel their subscription, pinpointing reasons that have the greatest churn cause in each customer segment.
+- **Retention Challenges and Trends**: -	Customer Retention Rates are analyzed to discover trends in subscription maintenance, determining average retention rates and best-performing properties in retaining customers, according to customer segmentation. 
 - **Subscription Price Analysis**: Using sales data from subsciption price per region and plan price to guide marketing decisions and determine Revenue per Visitor (RPV).
 
 ### The following project deliverables will be provided:
