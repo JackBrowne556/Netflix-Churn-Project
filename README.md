@@ -7,7 +7,7 @@ Netflix has been seeing an increasing churn rate amongst their subscribers. The 
 
 - **Customer Segmentation**: Grouping customers into certain groups dataset columns and providing descriptive statistics on each group to make comparisons and inform targetted marketing strategies.
 - **Churn Cause Analysis**: Determining and analyzing the outlying factors that cause a Netflix subscriber to cancel their subscription, pinpointing reasons that have the greatest churn cause in each customer segment.
-- **Subscription Price Analysis**: Using sales data from subsciption price per region and plan price to guide marketing decisions.
+- **Subscription Price Analysis**: Using sales data from subsciption price per region and plan price to guide marketing decisions and determine Revenue per Visitor (RPV).
 
 ### The following project deliverables will be provided:
 
