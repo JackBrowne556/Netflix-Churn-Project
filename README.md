@@ -27,7 +27,7 @@ During analysis, a few key insights included the following:
 - Age has a significant impact on retention, in both churn rate and subscription length duration.
 - Churn rate increase by almost ~7% between 0 - 10 support queries logged
 
-Further explanation on these insights and others are in the "Insight Deep-Dive" section below.
+Further explanation on these insights and others are in the "Insight Deep-Dive" section below. Following deep diving into insights, recommendations are formed based on those insights and project next steps.
 
 # Insight Deep-Dive
 
