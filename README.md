@@ -15,17 +15,21 @@ Netflix has been seeing an increasing churn rate amongst their subscribers. The 
 - **Analysis Notebook** to organize analysis, answer key business questions, and provide the step-by-step thought processes to found insights and recommendations.
 - **A Tableau Dashboard** to visualize and present key findings to stakeholders, technical and non-technical, in an interactive way.
 
-# Data Structure and Caveats
+# Executive Summary
 
-The data structure consists of two csv files: `netflix_user_data.csv` and `country_sub_fee.csv`, containing data on netflix data based on individual, unnamed users and subscription fee based on country and plan type. The first table on user data was found on Kaggle, and synthesized to increase record count to resemble uncleaned business data, and the subscription fee table retrieved from Kaggle contains information per country, a key that is changed to fit the user data table through SQL.
-
-In project relation, following the given task of analyzing customer churn reasons and sale data to guide marketing decisions, I retrieved the information on user data from the Customer data sector, and the subscription fee prices for countries from the revenue sector. 
+This project analyzes customer churn patterns to identify factors influencing retention, as well as using plan pricing data to determine overall revenue. Throughout analysis, customer segmentation aims to help inform the marketing team on valuable customer segments in terms of subscription retention. To answer the business questions, two datasets were supplemented: `netflix_user_data.csv` and `country_sub_fee.csv`. `Netflix_user_data.csv` contains information on over 110,000 unique customers, including region, months subscribed, churn status, etc. `Country_sub_fee` contained information on each country with access to netflix, along with prices for each of their plans in USD, data which is later aggregated into a single table with regional average subscription prices to be joined with `netflix_user_data`. A total of three tools were used to conduct the project from start to finish: Excel for Data Cleaning efforts, SQL for Analysis efforts and EDA, and Tableau for a finalized dashboard and any accompanying visualizations for non-stakeholders.
 
 <img src="images/Model databases (1).png" alt="netflix_database" width="100%"/>
 
-Data cleaning efforts, added columns, and validation checks were conducted to ensure data was ready for analysis. Those processes are outlined <a href="Netflix-Churn-Project/notebooks
-/data_cleaning_notebook.md">here</a>. The formulas for such cleaning efforts can also be found <a href="Netflix-Churn-Project/excel
-/excel_formulas.md">here</a>.
+During analysis, a few key insights included the following:
 
-# Executive Summary
+- Churn rate decreases by almost ~10% by the time new subscribers reached the one year benchmark.
+- Age has a significant impact on retention, in both churn rate and subscription length duration.
+- Churn rate increase by almost ~7% between 0 - 10 support queries logged
+
+Further explanation on these insights and others are in the "Insight Deep-Dive" section below.
+
+#Insight Deep-Dive
+
+
 
