@@ -17,17 +17,11 @@ Netflix has been seeing an increasing churn rate amongst their subscribers. The 
 
 # Executive Summary
 
-This project analyzes customer churn patterns to identify factors influencing retention, as well as using plan pricing data to determine overall revenue. Throughout analysis, customer segmentation aims to help inform the marketing team on valuable customer segments in terms of subscription retention. To answer the business questions, two datasets were supplemented: `netflix_user_data.csv` and `country_sub_fee.csv`. `Netflix_user_data.csv` contains information on over 110,000 unique customers, including region, months subscribed, churn status, etc. `Country_sub_fee` contained information on each country with access to netflix, along with prices for each of their plans in USD, data which is later aggregated into a single table with regional average subscription prices to be joined with `netflix_user_data`. 
+Working with Netflix’s Marketing team, two datasets containing user (`netflix_user_data.csv`) and price planning data (`country_fee.csv`) was gathered to answer business questions in the primary areas of analysis, shown above. Analysis efforts revealed first-time users having a 10% higher churn rate than long-term subscribers, promotional offer use having a positive correlation with higher subscription lengths, with churn rate decreasing by 1-2% whenever customers use a promotional offer. Furthermore, sales pricing data is incorporated, with findings showing Europe to have the most revenue generated and highest ARPU at $167.97 average value for premium subscribers in Europe, while Africa with the lowest revenue generated and ARPU. Insight deep dives show findings within each customer segment, and the marketing team are recommended to allocate resources to certain campaigns targeting both high-churn-risk and profitable segments.  
 
 <img src="images/Model databases (1).png" alt="netflix_database" width="100%"/>
 
-During analysis, a few key insights included the following:
-
-- Churn rate decreases by almost ~10% by the time new subscribers reached the one year benchmark.
-- Age has a significant impact on retention, in both churn rate and subscription length duration.
-- Churn rate increase by almost ~7% between 0 - 10 support queries logged
-
-Further explanation on these insights and others are in the "Insight Deep-Dive" section below. Following deep diving into insights, recommendations are formed based on those insights and project next steps.
+A variety of tools were used during the entire data process, with Excel Spreadsheets being used for data cleaning and validation checks, SQL being used to answer business questions relating to the project areas as noted above, and Tableau being used to create a dashboard and any accompanying visualizations in the sections below.
 
 # Insight Deep-Dive
 
