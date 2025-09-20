@@ -279,9 +279,13 @@ Purpose of Analysis:
 
 The following SQL query returns the ARPU of each region and subscription plan segment.
 
+<img src="../images/Q6_query.jpg" alt="Q6 Query" width="50%"/>
+<img src="../images/Q6_result.jpg" alt="Q6 Result" width="50%"/>
 
+Outcomes:
 
-
+- Europe possesses the highest ARPU values for their Standard and Premium Plans, at $153.15 and $167.97 ARPU respectfully.
+- The lowest ARPU bracket would be all subscription plans from Africa, and the basic plan from Asia, ranging between $64.11 and $77.13 ARPU.
 
 # Conclusion
 
