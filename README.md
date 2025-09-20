@@ -21,7 +21,7 @@ Working with Netflix’s Marketing team, two datasets containing user (`netflix_
 
 <img src="images/Model databases (1).png" alt="netflix_database" width="100%"/>
 
-A variety of tools were used during the entire data process, with Excel Spreadsheets being used for data cleaning and validation checks, SQL being used to answer business questions relating to the project areas as noted above, and Tableau being used to create a dashboard and any accompanying visualizations in the sections below.
+A variety of tools were used during the entire data process, with Excel Spreadsheets for data cleaning and validation checks, SQL to answer business questions relating to the project areas as noted above, and Tableau to create a dashboard and any accompanying visualizations in the sections below.
 
 # Insight Deep-Dive
 
