@@ -27,7 +27,7 @@ A variety of tools were used during the entire data process, with Excel Spreadsh
 
 ## Churn Cause Analysis
 
-#### Relevant business questions: Q1, Q2
+
 
 
 
