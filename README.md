@@ -13,7 +13,7 @@ Netflix has been seeing an increasing churn rate amongst their subscribers. The 
 
 - **Data Cleaning Notebook** for process reproducability and checking data integrity, including a documentation log on changes made and solutions to unfixable data issues, excel functions used, and a final cleaned excel file.
 - **Analysis Notebook** to organize analysis, answer key business questions, and provide the step-by-step thought processes to found insights and recommendations.
-- **A Tableau Dashboard** to visualize and present key findings to stakeholders, technical and non-technical, in an interactive way.
+- **Executive Summary and Insight Deep Dive (this README.md file)** to create a final deliverable for stakeholders including industry-relevant insights, accompanied by visualizations
 
 # Executive Summary
 
