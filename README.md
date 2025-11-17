@@ -38,7 +38,20 @@ Figure 1:
 Figure 2:
 <img src="images/Q2_box_noABS.png" alt="variance_dashboard" width="100%"/>
 
-#### Churn Causes and Variance Trends
+### Churn Causes and Variance Trends
+
+#### Below are insights from analyzing churn rates within individual categories (Figure 1)
+
+- Findings showed a significant variety in churn trends across different customer segments, with some showing a stronger linear relationship while others can be dismissed of correlation.
+- Categories with the most significant churn rate:
+    - Young Adults (18-30)
+    - Those who didn't utilize special promotions
+    - Standard Plan Users
+    - Churn happened the most with users around the 6-month timeline
+    - Single accounts
+ - The small differences in churn rate between regions suggest that regional marketing addresses target demographics effectively.
+ - The most noticeable linear relationships consisted in both the age and offers used customer segments, with churn rate decreasing with age and promotional offer use respectively.
+ - Support Queries Logged churn rates appear scattered, and hence doesn't infer any sort of trend or relation to churn causes considering other customer segments.
 
 
 
