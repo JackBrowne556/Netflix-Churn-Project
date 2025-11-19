@@ -53,6 +53,13 @@ Figure 2:
  - The most noticeable linear relationships consisted in both the age and offers used customer segments, with churn rate decreasing with age and promotional offer use respectively.
  - Support Queries Logged churn rates appear scattered, and hence doesn't infer any sort of trend or relation to churn causes considering other customer segments.
 
+#### Below are inishgts from analyzing churn percent variance within total customer segments (Figure 2)
+
+- The second analysis question looked at and identifies the positive or negative change in churn rate, looking at the changes in percentage.
+- The largest change within their categories are the Subscription Length and Queries logged customer segments:
+    - Subscription Length shows the largest difference of -3%~, suggesting subscription length as a contributor of declining churn rates
+    - The amount of support queries customers send in has a positive increase of churn rates, suggesting the more queries logged, equals the likliehood of churning.
+- 
 
 
 
