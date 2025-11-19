@@ -23,22 +23,21 @@ Working with Netflix’s Marketing team, two datasets containing user (`netflix_
 
 A variety of tools were used during the entire data process, with Excel Spreadsheets for data cleaning and validation checks, SQL to answer business questions relating to the project areas as noted above, and Tableau to create a dashboard and any accompanying visualizations in the sections below.
 
-# Insight Deep-Dive
+# Insight Deep-Dive and Data Outcomes
 
 ## Churn Cause Analysis
 
-The first two analysis questions tackled reasons behind customer churn, determining primary causes of churn so the marketing team can direct efforts towards those customer segments. 
+The first two analysis questions tackled reasons behind customer churn, determining primary causes of churn so the marketing team can direct efforts towards those customer segments. (Maybe add another visualization on difference between churn, e.g. subtracting the least churned category by the most churned category in individual customer segments, and displaying this into a bar graph to answer the question of "how much variance exists between categories?")
 
-Since no time series was given, the first objective of analysis was to determine which category within each customer segment churned the most. This was done through taking the entire dataset and analyzing each customer segment separately, splitting them into their categories, and comparing the number of customers who churned in each category, highlighting key comparisons through a series of heatmaps (Figure 1). For example, a customer segment would be their age, and each category would be age groups. Refer to customer segmentation in-depth in the analysis notebook [**here**](notebooks/analysis_notebook.md). 
+Since no time series was given, the first objective of analysis was to determine which category within each customer segment churned the most. This was done through taking the entire dataset and analyzing each customer segment separately, splitting them into their categories, and comparing the number of customers who churned in each category, highlighting key comparisons through a series of heatmaps. For example, a customer segment would be their age, and each category would be age groups. Refer to customer segmentation in-depth in the analysis notebook [**here**](notebooks/analysis_notebook.md). 
 
-^^Expand on above, make sure to delete Q2 from Analysis
+To support visualizing the leading causes of churn, the most-churned category for each segment was put into a bar graph to show how much each category takes amongst the entire dataset in terms of churn rate.
 
-Figure 1:
-<img src="images/churn_cause_analysis_dashboard.png" alt="churn_cause_analysis_dashboard" width="100%"/>
+<img src="images/churn_cause_analysis_Q1Q2_ss.jpg" alt="churn_cause_analysis_dashboard" width="75%"/>
 
 ### Churn Causes and Variance Trends
 
-#### Below are insights from analyzing churn rates within individual categories (Figure 1)
+#### Below are insights from analyzing churn rates within individual categories:
 
 - Findings showed a significant variety in churn trends across different customer segments, with some showing a stronger linear relationship while others can be dismissed of correlation.
 - Categories with the most significant churn rate:
@@ -51,6 +50,9 @@ Figure 1:
  - The most noticeable linear relationships consisted in both the age and offers used customer segments, with churn rate decreasing with age and promotional offer use respectively.
  - Support Queries Logged churn rates appear scattered, and hence doesn't infer any sort of trend or relation to churn causes considering other customer segments.
 
+### Retention Challenges and Trends
+
+Using Subscription Length as a KPI, the average retention rate for each customer segment was analyzed to determine when customers would typically churn. From this, a hard average subscription turnover time was determined so the marketing team can know when to ramp up retention campaigns. Additionally, potential correlations between age and subscription plan retention was analyzed based on region to find insights on which certain age groups gravitated towards certain plans.
 
 
 
