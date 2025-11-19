@@ -35,9 +35,7 @@ To support visualizing the leading causes of churn, the most-churned category fo
 
 <img src="images/churn_cause_analysis_Q1Q2_ss.jpg" alt="churn_cause_analysis_dashboard" width="75%"/>
 
-### Churn Causes and Variance Trends
-
-#### Below are insights from analyzing churn rates within individual categories:
+#### Churn Causes and Variance Trends
 
 - Findings showed a significant variety in churn trends across different customer segments, with some showing a stronger linear relationship while others can be dismissed of correlation.
 - Categories with the most significant churn rate:
@@ -50,7 +48,7 @@ To support visualizing the leading causes of churn, the most-churned category fo
  - The most noticeable linear relationships consisted in both the age and offers used customer segments, with churn rate decreasing with age and promotional offer use respectively.
  - Support Queries Logged churn rates appear scattered, and hence doesn't infer any sort of trend or relation to churn causes considering other customer segments.
 
-### Retention Challenges and Trends
+## Retention Challenges and Trends
 
 Using Subscription Length as a KPI, the average retention rate for each customer segment was analyzed to determine when customers would typically churn. From this, a hard average subscription turnover time was determined so the marketing team can know when to ramp up retention campaigns. Additionally, potential correlations between age and subscription plan retention was analyzed based on region to find insights on which certain age groups gravitated towards certain plans.
 
