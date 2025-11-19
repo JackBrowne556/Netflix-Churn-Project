@@ -31,12 +31,10 @@ The first two analysis questions tackled reasons behind customer churn, determin
 
 Since no time series was given, the first objective of analysis was to determine which category within each customer segment churned the most. This was done through taking the entire dataset and analyzing each customer segment separately, splitting them into their categories, and comparing the number of customers who churned in each category, highlighting key comparisons through a series of heatmaps (Figure 1). For example, a customer segment would be their age, and each category would be age groups. Refer to customer segmentation in-depth in the analysis notebook [**here**](notebooks/analysis_notebook.md). 
 
-The second objective of analysis was to find the variance of churn percentage change within each customer segment. This was done with a series of box-and-whisker plots (Figure 2), identifying the change of churn % within each category in their respective customer segments, and visualizing the largest changes in churn and hence, <b>which customer segments have the most drastic, or minimal effect on churn rate.</b>
+^^Expand on above, make sure to delete Q2 from Analysis
 
 Figure 1:
 <img src="images/churn_cause_analysis_dashboard.png" alt="churn_cause_analysis_dashboard" width="100%"/>
-Figure 2:
-<img src="images/Q2_box_noABS.png" alt="variance_dashboard" width="100%"/>
 
 ### Churn Causes and Variance Trends
 
@@ -52,14 +50,6 @@ Figure 2:
  - The small differences in churn rate between regions suggest that regional marketing addresses target demographics effectively.
  - The most noticeable linear relationships consisted in both the age and offers used customer segments, with churn rate decreasing with age and promotional offer use respectively.
  - Support Queries Logged churn rates appear scattered, and hence doesn't infer any sort of trend or relation to churn causes considering other customer segments.
-
-#### Below are inishgts from analyzing churn percent variance within total customer segments (Figure 2)
-
-- The second analysis question looked at and identifies the positive or negative change in churn rate, looking at the changes in percentage.
-- The largest change within their categories are the Subscription Length and Queries logged customer segments:
-    - Subscription Length shows the largest difference of -3%~, suggesting subscription length as a contributor of declining churn rates
-    - The amount of support queries customers send in has a positive increase of churn rates, suggesting the more queries logged, equals the likliehood of churning.
-- 
 
 
 
