@@ -35,26 +35,49 @@ To support visualizing the leading causes of churn, the most-churned category fo
 
 <img src="images/churn_cause_analysis_Q1Q2_ss.jpg" alt="churn_cause_analysis_dashboard" width="75%"/>
 
-#### Churn Causes and Variance Trends
+### **Summary of Key Churn Insights**
 
-- Findings showed a significant variety in churn trends across different customer segments, with some showing a stronger linear relationship while others can be dismissed of correlation.
-- Categories with the most significant churn rate:
-    - Young Adults (18-30)
-    - Those who didn't utilize special promotions
-    - Standard Plan Users
-    - Churn happened the most with users around the 6-month timeline
-    - Single accounts
-    - Those hovering around the six-month subscription length
-    - Customers in Asia
- - The small differences in churn rate between regions suggest that regional marketing addresses target demographics effectively.
- - The most noticeable linear relationships consisted in both the age and offers used customer segments, with churn rate decreasing with age and promotional offer use respectively.
- - Support Queries Logged churn rates appear scattered, and hence doesn't infer any sort of trend or relation to churn causes considering other customer segments.
+- **Churn varies widely** across customer segments—some show clear linear patterns, others show no meaningful correlation.  
+- **Top churn-prone groups:**
+  - Young Adults (18–30)  
+  - Customers who **did not** use promotional offers  
+  - **Standard** plan users  
+  - Customers at the **6-month subscription mark**  
+  - **Single-profile** accounts  
+  - Customers in **Asia**  
+- **Region-based churn differences are small**, suggesting targeted marketing is likely effective.  
+- **Strongest linear relationships**:
+  - **Age** → churn decreases as customers get older  
+  - **Offers Used** → churn decreases as more promotions are used  
+- **Support Queries Logged** shows **no trend** (scatter with no correlation), indicating this metric does not meaningfully relate to churn when compared with other segments.
+
 
 ## Retention Challenges and Trends
 
 Using Subscription Length as a KPI, the average retention rate for each customer segment was analyzed to determine when customers would typically churn. From this, a hard average subscription turnover time was determined so the marketing team can know when to ramp up retention campaigns. Additionally, potential correlations between age and subscription plan retention was analyzed based on region to find insights on which certain age groups gravitated towards certain plans.
 
-<img src="avg_sub_time_bar.jpg" alt="avg_sub_time_bargraph" width="75%"/>
+<img src="images/avg_sub_time_bar.jpg" alt="avg_sub_time_bargraph" width="75%"/>
 
+### **Subscription Length Insights**
 
+- Average subscription length is **9.17 months** (95% CI: **8.92–9.42 months**).  
+- Most customer groups fall within **7–9 months**, with an outlier among users who logged **7 support queries**.  
+- Clustered averages suggest **limited retention efforts** as users approach one year.  
+
+#### **Shorter Subscriptions (Early Churn)**  
+- Young adults (18–30)  
+- Users with **1–3 profiles**  
+- **No promotional offers** used  
+- Customers in **Africa**  
+- **Premium** plan users  
+
+#### **Longer Subscriptions**  
+- Senior customers  
+- Users with **5+ profiles**  
+- **4+ promotional offers** used  
+- Customers in **Europe**  
+- **Standard** plan users  
+
+#### **Additional Note**  
+- **Support Queries Logged** shows **no clear relationship** with subscription length.
 
