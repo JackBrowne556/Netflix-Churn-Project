@@ -81,3 +81,7 @@ Using Subscription Length as a KPI, the average retention rate for each customer
 #### **Additional Note**  
 - **Support Queries Logged** shows **no clear relationship** with subscription length.
 
+
+---
+<img src="images/plan_adoption_by_age_group_dashboard.png" alt="avg_sub_time_bargraph" width="75%"/>
+
