@@ -83,5 +83,40 @@ Using Subscription Length as a KPI, the average retention rate for each customer
 
 
 ---
-<img src="images/plan_adoption_by_age_group_dashboard.png" alt="avg_sub_time_bargraph" width="75%"/>
+<img src="images/plan_adoption_by_age_group_dashboard.png" alt="plan_adoption_by_age_dashboard" width="75%"/>
+
+### **Plan Adoption by Age Group Insights**
+
+- Above is a heatmap with a region panel slider, allowing readers to see user base churn concentration for plans and age groups based on their selected region or for total churned users.
+- Color intensity is based on the relative number of users within each bracket, with dark green indicating the lowest customer segments, and dark red indicating the highest customer segments for churn.
+- For the overall dataset, the highest concentrations of customers were:
+  - **Basic Plan** Users between **57-69**
+  - **Standard Plan** Users between **18-30**
+- With the lowest concentrations being:
+  - **Premium Plan** Users between **57-69**
+ 
+#### **North America**
+
+- Highest Concentrations → **Standard Plan** users within both age groups of **18-30** and **57-69**
+- Lowest Concetnrations → **Basic Plan** users Between **31-43**
+- Spotted Trends → **Premium Plan** churn rates seem to increase between age groups, and **Standard Plan** churn rates take a sharp decline within middle-aged groups.
+
+#### **South America**
+
+- Highest Concentrations → **Standard Plan** users between **18-30**
+- Lowest Concentrations → **Premium Plan** users between **31-43** and **57-69**, **Standard Plan** users between **57-69**
+- Spotted Trends → Higher churn concentrations within the age groups of 18-30 and 44-56, and a sharp increase of **Basic Plan** users in the **57-69** age group.
+
+#### **Europe**
+
+- Highest Concentrations → **Basic Plan** users within the age groups of **31-43** and **57-69**
+- Lowest Concentrations → **Premium Plan** users between **57-69**
+- Spotted Trends → A small increase of churn in **Premium Plan** users into adulthood, then sharp decline with age; those between 31-43 dominating churn rates in Europe.
+
+#### **Asia**
+
+- Highest concentrations → 
+
+
+
 
