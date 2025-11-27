@@ -6,7 +6,7 @@ The goal of this markdown notebook is to outline the processes of analyzing each
 
 ## Summarization of Analysis Efforts and Business Questions
 
-Data analysis will be conducted with the goal of extracting insights from the cleaned dataset to provide answers to the relevant business questions, allowing for further insight deep dives and recommendations to stakeholders. Data analysis will be done mostly with Structured Query Language (SQL) using PostgreSQL PgAdmin 4, with Excel spreadsheets used for basic visualizations used to help during analysis. (or just send ss of data output in postgresql)
+Data analysis will be conducted with the goal of extracting insights from the cleaned dataset to provide answers to the relevant business questions, allowing for further insight deep dives and recommendations to stakeholders. Data analysis will be done mostly with Structured Query Language (SQL) using PostgreSQL PgAdmin 4.
 
 The following are the key business questions that will be explored and insights found for during analysis:
 
@@ -49,7 +49,7 @@ Sections of customer information columns are segmented into subgroups within the
 
 The goal of this section is to identify the leading reasons why a Netflix user would cancel their subscription in relation to each distinguishing customer segment, as defined above. Information to answer the primary question will be found using SQL queries to analyze each customer segment individually, including churn number and average churn percentage of each group within each column.
 
-The deliverables to answer this question will be <b>eight SQL queries that will show the main factors that contribute to customer churn, for each customer segment, using the COUNT SQL function.</b> In this markdown file however, to keep length shorter, the SQL query for the first column (subscription length) will be shown, accompanied by a breakdown of the query's purpose. The other seven SQL queries can be found in this `.sql` file "here".
+The deliverables to answer this question will be <b>eight SQL queries that will show the main factors that contribute to customer churn, for each customer segment, using the COUNT SQL function.</b> In this markdown file however, to keep length shorter, the SQL query for the first column (subscription length) will be shown, accompanied by a breakdown of the query's purpose.
 
 Purpose for Analysis:
 - Give the marketing team a quick look on which customer segment's categories have the most churned users within their own segment alone.
