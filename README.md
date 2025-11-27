@@ -98,7 +98,7 @@ Using Subscription Length as a KPI, the average retention rate for each customer
 #### **North America**
 
 - Highest Concentrations → **Standard Plan** users within both age groups of **18-30** and **57-69**
-- Lowest Concetnrations → **Basic Plan** users Between **31-43**
+- Lowest Concentrations → **Basic Plan** users Between **31-43**
 - Spotted Trends → **Premium Plan** churn rates seem to increase between age groups, and **Standard Plan** churn rates take a sharp decline within middle-aged groups.
 
 #### **South America**
@@ -115,7 +115,18 @@ Using Subscription Length as a KPI, the average retention rate for each customer
 
 #### **Asia**
 
-- Highest concentrations → 
+- Highest Concentrations → **Standard Plan** users between **31-43**
+- Lowest Concentrations → **Basic Plan** users between **18-30**
+- Spotted Trends → Churn rate increases with age for **Basic Plan** users; A steady decline in churn with age for **Premium Plan** users
+
+#### **Africa**
+
+- Highest Concentrations → **Premium Plan** users between **31-43**
+- Lowest Concentrations → **Basic and Standard Plan** users between **31-43**
+- Spotted Trends → Increase of **Premium Plan** churn rate into adulthood, then sharp decline with age; the opposite effect with **Basic Plan** users: decrease of churn into adulthood and rising churn with age.
+
+
+## Subscription Price Analysis
 
 
 
