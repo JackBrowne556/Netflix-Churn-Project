@@ -17,7 +17,7 @@ Netflix has been seeing an increasing churn rate amongst their subscribers. The 
 
 # Executive Summary
 
-Working with Netflix’s Marketing team, two datasets containing user (`netflix_user_data.csv`) and price planning data (`country_sub_fee.csv`) was gathered to answer business questions in the primary areas of analysis, shown above. Analysis efforts revealed first-time users having a 10% higher churn rate than long-term subscribers, promotional offer use having a positive correlation with higher subscription lengths, with churn rate decreasing by 1-2% whenever customers use a promotional offer. Furthermore, sales pricing data is incorporated, with findings showing Europe to have the most revenue generated and highest ARPU at $167.97 average value for premium subscribers in Europe, while Africa with the lowest revenue generated and ARPU. Insight deep dives show findings within each customer segment, and the marketing team is recommended to allocate resources to certain campaigns targeting both high-churn-risk and profitable segments.  
+Working with Netflix’s Marketing team, two datasets containing user (`netflix_user_data.csv`) and price planning data (`country_sub_fee.csv`) was gathered to answer business questions in the primary areas of analysis, shown above. Analysis efforts revealed first-time users having a 10% higher churn rate than long-term subscribers, promotional offer use having a positive correlation with higher subscription lengths, with churn rate decreasing by 1-2% whenever customers use a promotional offer. Furthermore, sales pricing data is incorporated, with findings showing Europe to have the most revenue generated and highest ARPU at $167.97 average value for premium subscribers in Europe, while Africa with the lowest revenue generated and ARPU. Insight deep dives show findings within each customer segment, and the marketing team is **recommended to allocate resources to certain campaigns targeting both high-churn-risk and profitable segments.**  
 
 <img src="images/Model databases (1).png" alt="netflix_database" width="100%"/>
 
@@ -34,6 +34,7 @@ Since no time series was given, the first objective of analysis was to determine
 To support visualizing the leading causes of churn, the most-churned category for each segment was put into a bar graph to show how much each category takes amongst the entire dataset in terms of churn rate.
 
 <img src="images/churn_cause_analysis_Q1Q2_ss.jpg" alt="churn_cause_analysis_dashboard" width="75%"/>
+Link → https://public.tableau.com/views/ChurnCauseAnalysisDashboard/ChurnCauseAnalysisDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 
 ### **Summary of Key Churn Insights**
 
@@ -57,6 +58,7 @@ To support visualizing the leading causes of churn, the most-churned category fo
 Using Subscription Length as a KPI, the average retention rate for each customer segment was analyzed to determine when customers would typically churn. From this, a hard average subscription turnover time was determined so the marketing team can know when to ramp up retention campaigns. Additionally, potential correlations between age and subscription plan retention was analyzed based on region to find insights on which certain age groups gravitated towards certain plans.
 
 <img src="images/avg_sub_time_bar.jpg" alt="avg_sub_time_bargraph" width="75%"/>
+Link → https://public.tableau.com/views/AverageSubscriptionTimebyCategory/AverageSubscriptionTimebyCategory?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 
 ### **Subscription Length Insights**
 
@@ -84,6 +86,7 @@ Using Subscription Length as a KPI, the average retention rate for each customer
 
 ---
 <img src="images/plan_adoption_by_age_group_dashboard.png" alt="plan_adoption_by_age_dashboard" width="75%"/>
+Link → https://public.tableau.com/views/PlanAdoptionbyAgeGroupDashboard/PlanAdoptionbyAgeGroupDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 
 ### **Plan Adoption by Age Group Insights**
 
@@ -128,6 +131,9 @@ Using Subscription Length as a KPI, the average retention rate for each customer
 
 ## Subscription Price Analysis
 
+The final two business questions tackled the total and average customer revenue (ARPU) for each subscription plan and region. This section allows the marketing team to see the most profitable plans within each region, granting insights on overall plan performance and ARPU for each plan / region customer segment. 
+
+Both analysis objectives are tackled within a single dashboard, using an interactive map and mosaic plots to visualize findings and deliver insights.
 
 
 
