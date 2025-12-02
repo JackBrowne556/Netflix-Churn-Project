@@ -136,6 +136,7 @@ The final two business questions tackled the total and average customer revenue 
 Both analysis objectives are tackled within a single dashboard, using an interactive map and mosaic plots to visualize findings and deliver insights.
 
 <img src="images/subscription_price_analysis_dashboard.png" alt="subscription_plan_analysis_dashboard" width="75%"/>
+Link → https://public.tableau.com/views/SubscriptionPriceAnalysisDashboard/SubscriptionPriceAnalysisDashboard?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 
 ### Total Revenue Insight Summary
 
