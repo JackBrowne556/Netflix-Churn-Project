@@ -46,7 +46,7 @@ Link → https://public.tableau.com/views/ChurnCauseAnalysisDashboard/ChurnCause
   - Customers at the **6-month subscription mark**  
   - **Single-profile** accounts  
   - Customers in **Asia**  
-- **Region-based churn differences are small**, suggesting targeted marketing is likely effective.  
+- **Region-based churn differences are small**, suggesting targeted regional marketing is likely effective.  
 - **Strongest linear relationships**:
   - **Age** → churn decreases as customers get older  
   - **Offers Used** → churn decreases as more promotions are used  
@@ -155,4 +155,12 @@ Link → https://public.tableau.com/views/SubscriptionPriceAnalysisDashboard/Sub
 - Basic Plan Subscribers in South America has the lowest ARPU at **$45.96**, relatively lower compared to Standard and Premium ARPU values → suggesting a polarized market that could benefit from additional benefits for Basic Users to drive total subscribers up.
 - Maybe one more?
 
+# Recommendations
 
+Based on the three sections of Insights above, recommendations are made towards the marketing team based on data findings and spotted trends in **Churn Cause**, **Retention**, and **Subscription Price Analysis**. Recommendations are listed first and emphasized based on priority for monetary performance. For example, in Churn Cause Analysis, the top-risk customer segments and categories for churn are emphasized first as these would drive churn rates the most and therefore, lost revenue.
+
+### Churn Cause Analysis Recommendations
+
+Recommendations for Churn Causes are made below, in order, based on priority:
+
+1. 
