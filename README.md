@@ -135,5 +135,23 @@ The final two business questions tackled the total and average customer revenue 
 
 Both analysis objectives are tackled within a single dashboard, using an interactive map and mosaic plots to visualize findings and deliver insights.
 
+<img src="images/subscription_price_analysis_dashboard.png" alt="subscription_plan_analysis_dashboard" width="75%"/>
+
+### Total Revenue Insight Summary
+
+- Europe is the highest revenue region at **$2,764,283.43**, with Africa being the lowest at **$1,597,587.42**.
+- Basic Plan is consistently the smallest revenue source, while both Standard and Premium dominate the revenue charts. This suggests that **Netflix's primary revenue gain is from higher-priced plans, and suggesting the higher-tier functionality performs well globally**.
+- Despite the increased plan price for Premium, Standard plan consistently matches itself in total revenue, as seen with Europe and South America having more revenue from the **Standard** than **Premium** plan.
+- Standard Plans in Europe generate the most revenue out of any other plans, **suggesting a stronger demand for mid-tier plans**.
+- South America, North America, and Asia are relatively similar in revenue, suggesting a similarity in market and plan demand
+- Asian and North American markets see strong Premium Plan uptakes, **signaling an increased demand for Netflix's premium services such as 4k streaming or simulatenous streams**.
+
+### Average Revenue per User (ARPU) Insight Summary
+
+- Europe delivers the highest ARPU across both Standard and Premium Plans → suggesting a **price-tolerant market** and increased potential at monetization for higher-priced plans.
+- Africa has the lowest ARPU across all plans, only being beat out by South America's Basic ARPU → suggesting a **value-sensitive market** with a focus on affordability and basic plan onboarding.
+- Premium ARPU leads by a large margin in every region, which means Premium Plan Users have the highest lifetime value (LTV) for Netflix and therefore lower-tier plans should be upsold to Premium.
+- Basic Plan Subscribers in South America has the lowest ARPU at **$45.96**, relatively lower compared to Standard and Premium ARPU values → suggesting a polarized market that could benefit from additional benefits for Basic Users to drive total subscribers up.
+- Maybe one more?
 
 
