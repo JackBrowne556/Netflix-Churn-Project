@@ -163,4 +163,13 @@ Based on the three sections of Insights above, recommendations are made towards 
 
 Recommendations for Churn Causes are made below, in order, based on priority:
 
-1. 
+1. Target high-risk segments that show strong relations to churn in marketing campaigns (Standard Plan → 18-30 Age Group → Single Profiles).
+2. Ante up Promotional Offer advertising, as customer offer usage has a positive effect on plan retention.
+3. Conduct research and employ TV and Movie services Young Adults (18-30) would enjoy to increase retention in this high-risk customer segment.
+4. Target marketing efforts towards Customers between 3-6 months into their subscription.
+
+### Retention Analysis Recommendations
+
+Recommendations for Retention Strategies and Trends are made below, in order, based on priority:
+
+
