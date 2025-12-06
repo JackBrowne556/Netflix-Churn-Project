@@ -153,7 +153,6 @@ Link → https://public.tableau.com/views/SubscriptionPriceAnalysisDashboard/Sub
 - Africa has the lowest ARPU across all plans, only being beat out by South America's Basic ARPU → suggesting a **value-sensitive market** with a focus on affordability and basic plan onboarding.
 - Premium ARPU leads by a large margin in every region, which means Premium Plan Users have the highest lifetime value (LTV) for Netflix and therefore lower-tier plans should be upsold to Premium.
 - Basic Plan Subscribers in South America has the lowest ARPU at **$45.96**, relatively lower compared to Standard and Premium ARPU values → suggesting a polarized market that could benefit from additional benefits for Basic Users to drive total subscribers up.
-- Maybe one more?
 
 # Recommendations
 
@@ -179,6 +178,8 @@ Recommendations for Retention Strategies and Trends are made below, in order, ba
 
 Recommendations after analyzing total revenue and ARPU of netflix customers are presented below, in order, based on priority:
 
-1. 
+1. Prioritize Upsell Campaigns towards Premium in high-value regions → as Premium ARPU dominates over the other two plans
+2. Incentivize Basic Plan Users (especially in South America) to move up the subscription ladder → as Basic has signicantly lower ARPU than the other two plans.
+3. Strengthen the Position of the Standard Plan in regional markets where mid-tier demand is strongest (Europe, South America) → A/B Price Testing for any monetization potential
 
 
