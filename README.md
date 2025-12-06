@@ -166,10 +166,19 @@ Recommendations for Churn Causes are made below, in order, based on priority:
 1. Target high-risk segments that show strong relations to churn in marketing campaigns (Standard Plan → 18-30 Age Group → Single Profiles).
 2. Ante up Promotional Offer advertising, as customer offer usage has a positive effect on plan retention.
 3. Conduct research and employ TV and Movie services Young Adults (18-30) would enjoy to increase retention in this high-risk customer segment.
-4. Target marketing efforts towards Customers between 3-6 months into their subscription.
 
 ### Retention Analysis Recommendations
 
 Recommendations for Retention Strategies and Trends are made below, in order, based on priority:
+
+1. Observe average subscription times for listed customer segments and increase advertising during high-churn risk month(s) → regardless, between 7-9 months into user subscription.
+2. Through marketing efforts, bring customers from shorter subscription length segments to longer ones → For example, increase promotional offer marketing as it has a positive correlation with longer subscription length.
+3. Target high-churn concentration groups in advertising campaigns, per region.
+
+### Subscription Price Analysis Recommendations
+
+Recommendations after analyzing total revenue and ARPU of netflix customers are presented below, in order, based on priority:
+
+1. 
 
 
