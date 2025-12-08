@@ -178,8 +178,8 @@ Recommendations for Retention Strategies and Trends are made below, in order, ba
 
 Recommendations after analyzing total revenue and ARPU of netflix customers are presented below, in order, based on priority:
 
-1. Prioritize Upsell Campaigns towards Premium in high-value regions → as Premium ARPU dominates over the other two plans
+1. Prioritize Upsell Campaigns towards Premium in high-value regions → as Premium ARPU dominates over the other two plans.
 2. Incentivize Basic Plan Users (especially in South America) to move up the subscription ladder → as Basic has signicantly lower ARPU than the other two plans.
-3. Strengthen the Position of the Standard Plan in regional markets where mid-tier demand is strongest (Europe, South America) → A/B Price Testing for any monetization potential
+3. Strengthen the Position of the Standard Plan in regional markets where mid-tier demand is strongest (Europe, South America) → A/B Price Testing for any monetization potential.
 
 
