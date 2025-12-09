@@ -2,7 +2,7 @@
 
 ### Netflix User Dataset
 - Source: Kaggle  
-- Dataset: "# Netflix Customer Churn and Engagement Dataset"  
+- Dataset: "Netflix Customer Churn and Engagement Dataset"  
 - URL: https://www.kaggle.com/datasets/dddtra/netflix-customer-churn-and-engagement-dataset
 - License: Unknown  
 - Notes: Used for churn analysis and customer segmentation.
